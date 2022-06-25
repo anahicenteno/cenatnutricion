@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagenes/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>CENAT Nutrición - CONTACTO</title>
+</head>
+<body>
+
+<header>
+    <h1 id="Inicio">CENAT NUTRICIÓN</h1>
+</header>   
+
+<nav>
+    <ul>
+        <li><a href="../index.html">¿QUIENES SOMOS?</a></li> 
+        <li><a href="./ubicacion.html">UBICACIÓN</a></li> 
+        <li><a href="./servicios.html">SERVICIOS</a></li> 
+        <li><a href="./antropometria.html">ANTROPOMETRÍA</a></li> 
+        <li><a href="./contacto.html">CONTACTO</a></li> 
+    </ul>
+</nav>
+    
+<main>
+        <div class="frase">
+            <h3 class="frase__texto">"No empieces una dieta que terminará algún día, comienza un estilo de vida que dure para siempre"</h3>
+            <a href="#QUIENES"><img class="flecha1" src="../imagenes/flechaAbajo.png" alt="¿QUIENES SOMOS?" width="50"></a>
+        </div>
+    
+        <div class="video">
+            <video src="../imagenes/videoBanner.mp4" autoplay loop></video>
+        </div>
+</main>
+
+<section>
+    <div id="CONT">
+        <h2 class="titulo__seccion">CONTACTO</h2>
+
+        <img src="../imagenes/CELULAR.JPG" alt="contacto" width="500">
+        <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=2&bgcolor=%23ffffff&ctz=America%2FArgentina%2FBuenos_Aires&showTitle=0&showPrint=0&src=ZXMuYXIjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%237986CB" style="border:solid 1px #777" width="400" height="300" frameborder="0" scrolling="no"></iframe>
+
+
+        <p>Si queres pedirnos turno por acá, inserta en tu comentario fecha en la que quisieras que te agendemos, te responderemos lo antes posible!</p>
+</div>
+
+<hr>
+<h2 class="comp">COMPLETÁ EL FORMULARIO</h2>
+
+<div id="FORM">
+    <form action="enviar.php" method="get">
+        <div class="row">
+            <label>Nombre y Apellido</label>
+            <input type="text" id="Nombre y Apellido" placeholder="">
+        </div>
+        <br>
+        <div class="row">
+            <label for="fecha de nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fechadenac" name="Fecha de nacimiento">
+        </div>
+        <br>
+        <div class="row">
+            <label for="email">Email</label>
+            <input type="email" placeholder="">
+        </div>
+        <br>
+        <div class="row">
+            <label for="Seleccione Plan">Seleccione su tipo de servicio</label>
+            <select name="Servicio" id="servicio">
+                <option value="Educacion Alimentaria">Educación Alimentaria</option>
+                <option value="PA + ANTROPOMETRIA">Plan de Alimentación + Antropometria</option>
+                <option value="Antropometria">Antropometría</option>
+            </select>
+        </div>
+        <br>
+        <div class="row">
+            <h4>Sexo</h4>
+            <input type="checkbox" id="Sexo" name="Sexo" value="Sexo">
+            <label for="FEM">Femenino</label><br>
+            <input type="checkbox" id="Sexo" name="Sexo" value="Sexo">
+            <label for="MASC">Masculino</label><br>
+            <input type="checkbox" id="Sexo" name="Sexo" value="Sexo">
+            <label for="NOACL">Prefiero no aclarar</label><br>
+        </div>
+        <br>
+        <div class="row">
+            <label for="caja">Ingrese su consulta</label>
+            <textarea name="caja" id="caja" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div class="buttons">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar Todo">
+        </div>
+
+    </form>
+</div>
+</section>
+
+<footer>
+    <div class="final">
+        <a href="#Inicio"><img class="flecha2" src="../imagenes/flechaArriba.png" alt="VOLVER ARRIBA" width="50" height="50"></a>
+    </div>
+
+
+    <ul>
+       <li class="footer__contacto"><a href="./contacto.html">CONTACTO</a></li>
+       <li class="footer__ig"><a href="https://www.instagram.com/cenat.nutricion/" target="_blank">INSTAGRAM</a></li>
+    </ul>
+
+    <img src="../imagenes/logo.png" alt="LOGO" width="50px">
+ </footer>   
+
+</body>
+</html>
