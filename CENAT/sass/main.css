@@ -1,0 +1,344 @@
+body {
+  background-color: #FFBD59;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+header #Inicio {
+  align-content: center;
+  font-size: 3rem;
+  text-align: center;
+  background-color: #FFBD59;
+  letter-spacing: 1rem;
+  padding-top: 6rem;
+}
+header #Inicio:hover {
+  color: white;
+}
+
+ul {
+  text-align: center;
+}
+ul li {
+  display: inline-block;
+  margin: 1rem auto;
+  padding: 1rem;
+  color: #FFBD59;
+}
+
+main div.frase {
+  padding: 2rem;
+  text-align: center;
+  background-color: #FFBD59;
+}
+main div h3 {
+  font-style: oblique;
+  font-weight: 100;
+  text-shadow: black;
+  font-size: 1rem;
+  color: white;
+  letter-spacing: 0.5rem;
+}
+main div img.flecha1 {
+  margin: 2rem 1rem auto;
+}
+main div.video {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+}
+main.video .video {
+  -o-object-position: center;
+     object-position: center;
+}
+
+section #QUIENES {
+  text-align: center;
+  padding: 3rem;
+}
+section #QUIENES.quienes__presentacion {
+  bottom: -3rem;
+  font-size: 1.5rem;
+  color: white;
+}
+section.titulo__seccion {
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  letter-spacing: 0.5rem;
+}
+section.carouselIndex {
+  width: 80%;
+  justify-content: center;
+  margin: 3rem;
+  border: solid wheat;
+  margin-right: 40%;
+  margin-left: 10%;
+}
+
+div.final {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer {
+  display: grid;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 3rem;
+  justify-items: center;
+}
+
+.UBICACION {
+  text-align: center;
+  padding: 3rem;
+}
+.UBICACION.mapa {
+  margin-top: 3rem;
+}
+
+.mapa {
+  width: 100%;
+}
+
+section #SERVICIOS {
+  text-align: center;
+  padding: 3rem;
+}
+section #SERVICIOS .servicios__tabla {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+section table {
+  border-collapse: collapse;
+  width: 100%;
+}
+section th {
+  background-color: #FFBD59;
+  color: white;
+  text-align: center;
+}
+section th, section td {
+  text-align: left;
+  padding: 0.5rem;
+}
+section th {
+  background-color: #e3bd70;
+  color: white;
+  text-align: center;
+}
+section td {
+  background-color: #FFF;
+  color: #e3bd70;
+  text-align: center;
+}
+section .serviciosInfo {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+section .serviciosInfo h2 {
+  padding: 1rem;
+  background-color: #FFF;
+  color: #e3bd70;
+  text-align: center;
+}
+section .serviciosInfo p {
+  padding: 1rem;
+  justify-content: center;
+  text-align: center;
+}
+section .serviciosColumna {
+  flex: 1;
+  padding: 1rem;
+  color: antiquewhite;
+}
+
+section .titulo {
+  padding: 3rem;
+  text-align: center;
+}
+
+#ANTRO {
+  display: flexbox;
+  text-align: center;
+  justify-content: center;
+}
+#ANTRO p {
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  padding: 1rem;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.flex-container .flex-item {
+  color: white;
+  width: 20rem;
+}
+.flex-container .flex-item img {
+  width: 100%;
+  height: auto;
+}
+.flex-container .flex-item h2 {
+  text-align: center;
+}
+.flex-container .flex-item p {
+  color: white;
+  padding-top: 2rem;
+}
+
+.grid-cont {
+  display: grid;
+  width: 100%;
+  justify-items: center;
+  grid-auto-rows: -webkit-max-content;
+  grid-auto-rows: max-content;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+section .titulo__seccion {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bolder;
+  letter-spacing: 0.5rem;
+  padding-top: 1rem;
+  color: white;
+}
+section p {
+  justify-content: center;
+  color: #FFF;
+  text-align: center;
+  font-size: 1rem;
+}
+
+#FORM {
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+  color: #FFF;
+  border-radius: 5px;
+  padding: 3rem 1rem;
+}
+#FORM row {
+  content: "row";
+  display: table;
+  clear: both;
+}
+
+footer {
+  justify-content: center;
+}
+footer li {
+  justify-content: center;
+}
+
+input[type=text], textarea, select {
+  background-color: white;
+  color: #e3bd70;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+input[type=date] {
+  background-color: white;
+  color: #FFBD59;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+input[type=email] {
+  background-color: white;
+  color: #FFBD59;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+input[type=submit] {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+input[type=reset] {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.comp {
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  letter-spacing: 0.5rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+  #Inicio:hover {
+    color: white;
+  }
+  .video {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+  }
+  video {
+    width: 100%;
+  }
+}
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  header {
+    font-size: 2rem;
+  }
+  #Inicio:hover {
+    color: white;
+  }
+  .video {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+  }
+  video {
+    width: 100%;
+  }
+}
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  #Inicio:hover {
+    color: white;
+  }
+  .video {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+  }
+  video {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */

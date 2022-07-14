@@ -1,0 +1,38 @@
+section{
+& .titulo{
+    padding: 3rem;
+    text-align: center;
+}
+}
+
+#ANTRO{
+    display: flexbox;
+    text-align: center;
+    justify-content: center;
+    & p{
+        color: white;
+    }
+}
+
+.flex-container{
+    display: flex;
+    padding: 1rem;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    & .flex-item{
+        color: white;
+        width: 20rem;
+        & img{
+            width: 100%;
+            height: auto;
+        }
+        & h2{
+            text-align: center;
+        }
+        & p{
+            color: white;
+            padding-top: 2rem;
+        }
+    }
+}

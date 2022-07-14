@@ -1,0 +1,16 @@
+$colorPrincipal: #FFBD59;
+$colorSecundario: #e3bd70;
+$colorDeContraste: black; 
+
+body{
+    background-color: $colorPrincipal;
+}
+
+@import "pagesIndex";
+@import "pagesUbicacion";
+@import "pagesServicios";
+@import "pagesAntropometria";
+@import "pagesContacto";
+@import "mediaQuerys";
+
+

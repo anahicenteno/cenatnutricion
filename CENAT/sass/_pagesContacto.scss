@@ -1,0 +1,95 @@
+
+.grid-cont {
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    grid-auto-rows: max-content;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+section{
+    & .titulo__seccion {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bolder;
+        letter-spacing: 0.5rem;
+        padding-top: 1rem;
+        color: white;
+    }
+    & p{
+        justify-content: center;
+        color: #FFF;
+        text-align: center;
+        font-size: 1rem; 
+    }
+}
+
+#FORM {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 3rem 1rem;
+
+    & row{
+        content: "row";
+        display: table;
+        clear: both;
+    }
+}
+
+footer{
+    justify-content: center;
+    & li{
+        justify-content: center;
+    }
+}
+
+
+input[type=text], textarea, select {
+    background-color: white;
+    color: #e3bd70;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+input[type=date] {
+    background-color: white;
+    color: #FFBD59;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+input[type=email] {
+background-color: white;
+color: #FFBD59;
+padding: 1rem 1rem;
+border: none;
+border-radius: 0.5rem;
+}
+
+input[type=submit] {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+input[type=reset] {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.comp{
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: 0.5rem;
+    padding-top: 2rem;
+    text-align: center;
+}
