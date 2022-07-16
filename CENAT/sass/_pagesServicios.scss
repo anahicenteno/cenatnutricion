@@ -64,3 +64,15 @@ td{
     color: antiquewhite;
 }
 }
+
+.serviciosApp{
+    text-align: center;
+    padding: 3rem;
+
+    & .serviciosAppTitulo{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 5rem;
+    }
+}

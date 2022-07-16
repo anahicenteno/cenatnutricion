@@ -59,28 +59,30 @@ main.video .video {
      object-position: center;
 }
 
-section #QUIENES {
+#QUIENES {
   text-align: center;
   padding: 3rem;
 }
-section #QUIENES.quienes__presentacion {
-  bottom: -3rem;
-  font-size: 1.5rem;
-  color: white;
-}
-section.titulo__seccion {
+#QUIENES.titulo__seccion {
   justify-content: center;
   font-size: 2rem;
   font-weight: bolder;
   letter-spacing: 0.5rem;
 }
-section.carouselIndex {
+#QUIENES.carouselIndex {
   width: 80%;
   justify-content: center;
   margin: 3rem;
   border: solid wheat;
   margin-right: 40%;
   margin-left: 10%;
+}
+
+.quienes__presentacion {
+  bottom: -3rem;
+  font-size: 1.5rem;
+  color: white;
+  padding-top: 2rem;
 }
 
 div.final {
@@ -161,6 +163,17 @@ section .serviciosColumna {
   flex: 1;
   padding: 1rem;
   color: antiquewhite;
+}
+
+.serviciosApp {
+  text-align: center;
+  padding: 3rem;
+}
+.serviciosApp .serviciosAppTitulo {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 5rem;
 }
 
 section .titulo {
